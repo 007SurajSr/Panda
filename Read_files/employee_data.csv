@@ -1,0 +1,7 @@
+"employee_id","name","email","position","department","state","hire_date","age","salary"
+102,"Priya Desai","priya@yahoo.com","Software Engineer","IT","Kolkata","2025-08-15",34,"75000.00"
+103,"Rajesh Kumar","rajesh@hotmail.com","HR","Human Resources","Mumbai","2020-02-04",27,"85000.00"
+105,"Vikram Singh","vikram@yahoo.com","Sales Executive","Sales","Bengaluru","2023-02-12",30,"62000.00"
+101,"Ajit Sharma","ajit@gmail.com","Data Analyst","Data Science","Delhi","2025-05-05",26,"65000.00"
+104,"Sneha Patel","sneha@gmail.com","Marketing Expert","Marketing","Chennai","2020-07-25",43,"58000.00"
+106,"Sid","sid@yahoo.com","Business developer","IT","Delhi","2024-05-17",24,"69000.00"
