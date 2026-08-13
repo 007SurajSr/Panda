@@ -27,10 +27,12 @@ data = {
     "Performance_Score": [85,None,78,92,88,95,80,89]
 }
 
-df = pd.DataFrame(data)
+print("Before interpolation:")
 print(df)
 
-#linear, polynomial, time, exponential
+numeric_cols = df.select_dtypes(include=['number']).columns
 
-df.interpolate(method = "linear", axis = 0,  inplace = True)
+# Interpolate missing numerical values
+df[numeric_cols] = df[numeric_cols].interpolate(method="linear", axis=0)
+print("\nAfter interpolation:")
 print(df)

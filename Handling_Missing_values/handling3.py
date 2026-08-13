@@ -15,8 +15,7 @@ print(df)
 
 # df.fillna(0, inplace = True)
 
-df['Age'].fillna(df['Age'].mean(), inplace = True)
-df['Salary'].fillna(df['Salary'].mean(), inplace = True)
-df['Performance Score'].fillna(df['Performance Score'].mean(), inplace = True)
+df['Age'] = df['Age'].fillna(df['Age'].mean(), inplace = True)
+df['Salary'] = df['Salary'].fillna(df['Salary'].mean(), inplace = True)
+df['Performance Score'] = df['Performance Score'].fillna(df['Performance Score'].mean(), inplace = True)
 print(df)
-

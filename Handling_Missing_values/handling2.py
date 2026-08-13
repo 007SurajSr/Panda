@@ -7,7 +7,7 @@ df = pd.DataFrame({
 })
 
 # Fill missing values with mean directly
-df['Age'].fillna(df['Age'].mean(), inplace=True)
-df['Salary'].fillna(df['Salary'].mean(), inplace=True)
+df['Age'] = df["Age"].fillna(df["Age"].mean(), inplace = True) 
+df['Salary'] = df["Salary"].fillna(df["Salary"].mean(), inplace = True)
 
 print(df)

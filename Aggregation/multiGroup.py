@@ -23,5 +23,17 @@ data = {
 
 df = pd.DataFrame(data)
 
-grouped = df.groupby(["Age","Name"])["Salary"].sum()
-print(grouped)
+grouped1 = df.groupby(["Age","Name"])["Salary"].sum()
+grouped2 = df.groupby(["Age","Name"])["Salary"].mean()
+grouped3 = df.groupby(["Age","Name"])["Salary"].count()
+grouped4 = df.groupby(["Age","Name"])["Salary"].min()
+grouped5 = df.groupby(["Age","Name"])["Salary"].max()
+grouped6 = df.groupby(["Age","Name"])["Salary"].std()
+
+print(grouped1)
+print(grouped2)
+print(grouped3)
+print(grouped4)
+print(grouped5)
+print(grouped6)
+

@@ -18,4 +18,11 @@ data = {
 df = pd.DataFrame(data)
 
 avg_salary = df['Salary'].mean()
+sum_salary = df['Salary'].sum()
+min_salary = df['Salary'].min()
+max_salary = df['Salary'].max()
+
 print(avg_salary)
+print(sum_salary)
+print(min_salary)
+print(max_salary)
